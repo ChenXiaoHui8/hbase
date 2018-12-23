@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ActiveMQDemo" />
+        <module name="BZCloudframework" />
+        <module name="CustomJobSubmitter" />
+        <module name="FlumeDemo" />
+        <module name="HbaseDemo" />
+        <module name="KafkaDemo" />
+        <module name="RPCDemo" />
+        <module name="ZookeeperDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CunsomJobSubmitter" target="1.5" />
+      <module name="EurekaService" target="1.6" />
+      <module name="SpringCloud" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
